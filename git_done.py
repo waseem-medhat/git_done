@@ -19,7 +19,7 @@ except GitCommandError:
     sys.exit()
 
 
-print(f"added commit \"{commit_msg}\"")
+print(f"Successfully added commit: \"{commit_msg}\"")
 
 try:
     origin = repo.remote()
