@@ -22,3 +22,4 @@ except GitCommandError:
 print(f"added commit \"{commit_msg}\"")
 
 origin = repo.remote()
+print(origin)
