@@ -23,6 +23,8 @@ print(f"Successfully added commit: \"{commit_msg}\"")
 
 try:
     origin = repo.remote()
+    origin.pull()
+    print("Successfully pulled!")
     origin.push()
     print("Successfully pushed!")
 except:
